@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Hide Unwanted Stuff",
+	"description": "A simple Firefox web extension to hide unwanted HTML components.",
+	"homepage_url": "https://github.com/ablandel/hide-unwanted-stuff-webextension.git",
+	"version": "1.0.0",
+	"icons": {
+		"48": "icons/icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["./rules.js", "./hide.js"]
+		}
+	]
+}

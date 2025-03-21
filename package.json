@@ -1,0 +1,23 @@
+{
+	"name": "hide-unwanted-stuff-webextension",
+	"version": "1.0.0",
+	"description": "A simple Firefox web extension to hide unwanted HTML components.",
+	"scripts": {
+		"check": "npx @biomejs/biome ci .",
+		"format": "npx @biomejs/biome format --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ablandel/hide-unwanted-stuff-webextension.git"
+	},
+	"keywords": ["webextension", "firefox-extension"],
+	"author": "ablandel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ablandel/hide-unwanted-stuff-webextension/issues"
+	},
+	"homepage": "https://github.com/ablandel/hide-unwanted-stuff-webextension#readme",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
