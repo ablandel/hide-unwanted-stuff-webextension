@@ -8,20 +8,20 @@ Update the values in the `rules.js` file.
 
 ```js
 const rules = [
-	{
-		// Hide any parent element with the `parentClass` class and having a
-		// child with the `childClass` class.
-		parentClass: "parentClass",
-		childClass: "childClass",
-	},
-	{
-		// Hide any element with the `idToBeRemoved` ID.
-		idToBeRemoved: "idToBeRemoved",
-	},
-	{
-		// Hide any element with the `classToBeRemoved` class.
-		classToBeRemoved: "classToBeRemoved",
-	},
+  {
+    // Hide any parent element with the `parentClass` class and having a
+    // child with the `childClass` class.
+    parentClass: "parentClass",
+    childClass: "childClass",
+  },
+  {
+    // Hide any element with the `idToBeRemoved` ID.
+    idToBeRemoved: "idToBeRemoved",
+  },
+  {
+    // Hide any element with the `classToBeRemoved` class.
+    classToBeRemoved: "classToBeRemoved",
+  },
 ];
 ```
 
