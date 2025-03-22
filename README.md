@@ -2,7 +2,7 @@
 
 A simple Firefox web extension to hide unwanted HTML components.
 
-## Configure the rules
+## Configuration of the rules
 
 Update the values in the `rules.js` file.
 
@@ -27,7 +27,8 @@ const rules = [
 
 The `reload` button can be used to refresh the extension configuration after a rule update.
 
-**The rules will be applied on all the websites.** Specific websites can be targeted by updating the `manifest.json` `matches` array.
+**The rules will be applied on all the websites.** Specific websites can be targeted by updating the `manifest.json`
+`matches` array.
 
 ## Installation of the extension
 
@@ -37,8 +38,11 @@ This extension is currently not published and need to be manually loaded as a te
 git clone https://github.com/ablandel/hide-unwanted-stuff-webextension.git
 ```
 
-Open Firefox, go to `about:debugging` and under the `This Firefox` tab, use the `Load Temporary Add-on...` button to load this extension `manifest.json`.
+Open Firefox, go to `about:debugging` and under the `This Firefox` tab, use the `Load Temporary Add-on...` button to
+load this extension `manifest.json`.
 
-*On some Firefox setup, it may be required to allow the extension to run all the windows without restrictions. Open Firefox, go to `about:addons` and under the `Extensions` tab and this `Hide Unwanted Stuff` extension section, allows extensions to `Run in Private Windows` and `Run on sites with restrictions`.*
+*On some Firefox setup, it may be required to allow the extension to run all the windows without restrictions. Open
+Firefox, go to `about:addons` and under the `Extensions` tab and this `Hide Unwanted Stuff` extension section, allows
+extensions to `Run in Private Windows` and `Run on sites with restrictions`.*
 
 **The extension must be (re-)installed after each Firefox (re)start.**
