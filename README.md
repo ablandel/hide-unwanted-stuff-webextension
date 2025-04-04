@@ -15,12 +15,12 @@ const rules = [
     childClass: "childClass",
   },
   {
-    // Hide any element with the `idToBeRemoved` ID.
-    idToBeRemoved: "idToBeRemoved",
+    // Hide any element with the `idToBeHidden` ID.
+    idToBeHidden: "idToBeHidden",
   },
   {
-    // Hide any element with the `classToBeRemoved` class.
-    classToBeRemoved: "classToBeRemoved",
+    // Hide any element with the `classToBeHidden` class.
+    classToBeHidden: "classToBeHidden",
   },
 ];
 ```
